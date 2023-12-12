@@ -1,25 +1,48 @@
 :root {
   --body-font-family: "Epilogue", sans-serif;
   --h-font-family: "Prata", serif;
-  --primary-color: rgb(112, 144, 134);
+  --primary-color: rgb(61, 105, 100);
+  --bg-color: rgba(112, 144, 134, 0.113);
 }
 
 body {
-  padding: 100px;
+}
+
+.hero {
+    background: var(--bg-color);
+    padding: 100px;
 }
 
 h1 {
-  font-family: var(--h-font-family);
-  font-size: 56px;
+    font-family: var(--h-font-family);
+    font-size: 56px;
 }
 
 h2,
 h3 {
-  font-family: var(--body-font-family);
-  font-weight: bold;
+    font-family: var(--body-font-family);
+    font-weight: bold;
 }
 
 h3 {
-  opacity: 90%;
-  color: var(--primary-color);
+    opacity: 90%;
+    color: var(--primary-color);
+}
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-links a {
+    border: 2px solid var(--primary-color);
+    border-radius: 30px;
+    padding: 12px;
+    margin: 30px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    background: var(--primary-color);
+    color: white;
 }
