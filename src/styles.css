@@ -1,0 +1,25 @@
+:root {
+  --body-font-family: "Epilogue", sans-serif;
+  --h-font-family: "Prata", serif;
+  --primary-color: rgb(112, 144, 134);
+}
+
+body {
+  padding: 100px;
+}
+
+h1 {
+  font-family: var(--h-font-family);
+  font-size: 56px;
+}
+
+h2,
+h3 {
+  font-family: var(--body-font-family);
+  font-weight: bold;
+}
+
+h3 {
+  opacity: 90%;
+  color: var(--primary-color);
+}
