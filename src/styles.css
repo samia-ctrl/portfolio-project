@@ -5,9 +5,6 @@
   --bg-color: rgba(112, 144, 134, 0.113);
 }
 
-body {
-}
-
 .hero {
     background: var(--bg-color);
     padding: 100px;
