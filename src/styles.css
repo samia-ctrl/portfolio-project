@@ -57,7 +57,7 @@ h3 {
 }
 
 .project-content {
-  padding: 0px 0px;
+  padding-inline-end: 110px;
 }
 .btn-project {
   border: 2px solid var(--primary-color);
@@ -73,6 +73,11 @@ h3 {
   border: 2px solid var(--primary-color);
 }
 
+@media (max-width: 992px) {
+  .project-content {
+    padding-inline-end: 0px;
+  }
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 40px;
