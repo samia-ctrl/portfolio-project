@@ -93,7 +93,7 @@ h3 {
 }
 
 .about-content {
-  margin: 100px 400px;
+  margin: 50px 400px;
 }
 
 .col-8 h1,
@@ -106,6 +106,10 @@ h3 {
   text-decoration: none;
   color: var(--primary-color);
   font-size: 28px;
+}
+
+.about-link:hover {
+  color: rgb(22, 40, 38);
 }
 
 #arrow {
