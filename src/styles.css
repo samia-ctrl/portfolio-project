@@ -2,44 +2,95 @@
   --body-font-family: "Epilogue", sans-serif;
   --h-font-family: "Prata", serif;
   --primary-color: rgb(61, 105, 100);
-  --bg-color: rgba(112, 144, 134, 0.113);
+  --bg-color: #eef2f1;
 }
 
 .hero {
-    background: var(--bg-color);
-    padding: 100px;
+  background: var(--bg-color);
+  padding: 100px;
 }
 
 h1 {
-    font-family: var(--h-font-family);
-    font-size: 56px;
+  font-family: var(--h-font-family);
+  font-size: 56px;
 }
 
 h2,
 h3 {
-    font-family: var(--body-font-family);
-    font-weight: bold;
+  font-family: var(--body-font-family);
+  font-weight: bold;
 }
 
 h3 {
-    opacity: 90%;
-    color: var(--primary-color);
+  opacity: 90%;
+  color: var(--primary-color);
 }
 .nav-links {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .nav-links a {
-    border: 2px solid var(--primary-color);
-    border-radius: 30px;
-    padding: 12px;
-    margin: 30px;
-    color: var(--primary-color);
-    text-decoration: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 30px;
+  padding: 12px;
+  margin: 30px;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 .nav-links a:hover {
-    background: var(--primary-color);
-    color: white;
+  background: var(--primary-color);
+  color: white;
+}
+
+.project-img img {
+  max-width: 400px;
+  display: block;
+  margin: 0px auto;
+}
+
+.project-description {
+  padding: 120px 0;
+}
+.btn-project {
+  border: 2px solid var(--primary-color);
+  background: var(--primary-color);
+  color: var(--bg-color);
+  border-radius: 30px;
+  padding: 12px;
+}
+
+.btn-project:hover {
+  background: var(--bg-color);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  .hero {
+    padding: 100px 20px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+  }
+  h2,
+  p {
+    text-align: center;
+  }
+  .btn-project {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+  }
+  .project-description {
+    padding: 60px 0;
+  }
 }
