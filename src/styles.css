@@ -47,11 +47,17 @@ h3 {
 .project-img img {
   max-width: 400px;
   display: block;
-  margin: 0px auto;
+  margin: 20px auto;
 }
 
 .project-description {
   padding: 120px 0;
+  display: block;
+  margin: 0px auto;
+}
+
+.project-content {
+  padding: 0px 0px;
 }
 .btn-project {
   border: 2px solid var(--primary-color);
