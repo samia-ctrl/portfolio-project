@@ -102,13 +102,16 @@ h3 {
   display: block;
   margin: 0 auto;
 }
-.about-link {
+.content-link, .content-link-contact {
   text-decoration: none;
   color: var(--primary-color);
+}
+
+.content-link {
   font-size: 28px;
 }
 
-.about-link:hover {
+.content-link:hover {
   color: rgb(22, 40, 38);
 }
 
@@ -118,8 +121,12 @@ h3 {
   margin-top: 60px;
 }
 
-.project-container {
+.project-container, .project-container-contact {
   padding: 100px;
+}
+
+.project-container-contact {
+  background: var(--bg-color);
 }
 
 @media (max-width: 992px) {
@@ -171,7 +178,7 @@ h3 {
 }
 
 @media (max-width: 663px) {
-  .content-container {
+  .content-container, .project-container, .project-container-contact {
     padding: 50px;
   }
 
@@ -181,8 +188,4 @@ h3 {
   .container-head {
     font-size: 12px;
   }
-
-  .project-container {
-  padding: 50px;
-}
 }
