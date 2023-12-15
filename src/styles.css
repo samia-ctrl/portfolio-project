@@ -62,7 +62,6 @@ h3 {
   color: var(--primary-color);
   text-decoration: none;
   font-family: var(--body-font-family);
-
 }
 
 .nav-links a:hover {
@@ -80,8 +79,7 @@ h3 {
   padding: 120px 0;
   display: block;
   margin: 0px auto;
-    font-family: var(--body-font-family);
-
+  font-family: var(--body-font-family);
 }
 
 .project-content {
@@ -116,15 +114,13 @@ h3 {
 .body-content {
   margin: 20px 400px;
   font-family: var(--body-font-family);
-
 }
 
 .content-link,
 .content-link-contact {
   text-decoration: none;
   color: var(--primary-color);
-    font-family: var(--body-font-family);
-
+  font-family: var(--body-font-family);
 }
 
 .content-link {
@@ -151,14 +147,14 @@ h3 {
   padding: 20px;
 }
 .social-links a {
-text-decoration: none;
-color: var(--primary-color);
-font-size: 24px;
-margin: 15px;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 24px;
+  margin: 15px;
 }
 
 .social-links a:hover {
-    color: rgb(22, 40, 38);
+  color: rgb(22, 40, 38);
 }
 
 .footer-text {
@@ -209,7 +205,6 @@ margin: 15px;
     text-align: center;
   }
 
-  
   .container-head {
     font-size: 12px;
   }
@@ -224,7 +219,7 @@ margin: 15px;
   .project-container-contact {
     padding: 50px;
   }
-  
+
   .content-h1 {
     font-size: 32px;
   }
