@@ -9,6 +9,7 @@ nav ul,
 nav p {
   margin: 0;
   padding: 0;
+  font-family: var(--body-font-family);
 }
 nav li,
 nav p {
@@ -60,6 +61,8 @@ h3 {
   margin: 30px;
   color: var(--primary-color);
   text-decoration: none;
+  font-family: var(--body-font-family);
+
 }
 
 .nav-links a:hover {
@@ -77,6 +80,8 @@ h3 {
   padding: 120px 0;
   display: block;
   margin: 0px auto;
+    font-family: var(--body-font-family);
+
 }
 
 .project-content {
@@ -110,12 +115,16 @@ h3 {
 
 .body-content {
   margin: 20px 400px;
+  font-family: var(--body-font-family);
+
 }
 
 .content-link,
 .content-link-contact {
   text-decoration: none;
   color: var(--primary-color);
+    font-family: var(--body-font-family);
+
 }
 
 .content-link {
@@ -136,6 +145,24 @@ h3 {
 .project-container,
 .project-container-contact {
   padding: 100px;
+}
+
+.social-links {
+  padding: 20px;
+}
+.social-links a {
+text-decoration: none;
+color: var(--primary-color);
+font-size: 24px;
+margin: 15px;
+}
+
+.social-links a:hover {
+    color: rgb(22, 40, 38);
+}
+
+.footer-text {
+  font-size: 12px;
 }
 
 .project-container-contact {
