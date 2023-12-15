@@ -73,15 +73,15 @@ h3 {
   border: 2px solid var(--primary-color);
 }
 
-.about-hero {
+.content-container {
   background: var(--bg-color);
   padding: 150px;
 }
 
-.about-h1 {
+.content-h1 {
   font-size: 56px;
 }
-.about-h2 {
+.content-h2 {
   font-size: 18px;
 }
 
@@ -92,8 +92,8 @@ h3 {
   justify-content: center !important;
 }
 
-.about-content {
-  margin: 50px 400px;
+.body-content {
+  margin: 20px 400px;
 }
 
 .col-8 h1,
@@ -122,8 +122,8 @@ h3 {
   .project-content {
     padding-inline-end: 0px;
   }
-  .about-content {
-    margin: 100px 100px;
+  .body-content {
+    margin: 20px 100px;
   }
 }
 @media (max-width: 768px) {
@@ -153,28 +153,28 @@ h3 {
     padding: 60px 0;
   }
 
-  .about-h1 {
+  .content-h1 {
     font-size: 40px;
     text-align: center;
   }
 
-  .about-h2 {
+  .content-h2 {
     font-size: 14px;
   }
-  .about-content {
-    margin: 60px;
+  .body-content {
+    margin: 20px 60px;
   }
 }
 
 @media (max-width: 663px) {
-  .about-hero {
+  .content-container {
     padding: 50px;
   }
 
-  .about-h1 {
+  .content-h1 {
     font-size: 32px;
   }
-  .about-head {
+  .container-head {
     font-size: 12px;
   }
 }
