@@ -99,6 +99,11 @@ h3 {
   border: 2px solid var(--primary-color);
 }
 
+.my-work {
+  display: block;
+  margin: 10px auto;
+  max-width: fit-content;
+}
 .content-container {
   background: var(--bg-color);
   padding: 150px;
