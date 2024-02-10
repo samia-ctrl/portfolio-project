@@ -103,6 +103,8 @@ h3 {
   display: block;
   margin: 10px auto;
   max-width: fit-content;
+  font-family: var(--body-font-family);
+
 }
 .content-container {
   background: var(--bg-color);
